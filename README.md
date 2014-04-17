@@ -2,3 +2,4 @@ fuzzies
 =======
 
 Misc tests
+FizzBuzz
