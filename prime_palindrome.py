@@ -1,11 +1,12 @@
 #!/usr/local/bin/python3
 # Prints the largest prime palindrom under 1000
+import math
 
 def is_prime(num):
     if num == 0 or num == 1: # 0 or 1 is no primes
         return False
         
-    for i in range(2,num):
+    for i in range(2,int(math.sqrt(num))):
         if num % i == 0:
             return False
     else:
